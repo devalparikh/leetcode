@@ -12,7 +12,7 @@ public class RotateImage48 {
         System.out.println(Arrays.deepToString(board1));
     }
 
-    private static void rotate(int[][] matrix) {
+    public static void rotate(int[][] matrix) {
 
         // Number of circular layers in matrix is # rows / 2
         int layers = matrix.length / 2;
